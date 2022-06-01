@@ -1,0 +1,115 @@
+body{
+    margin: 30px 50px 150px;
+    /* background: linear-gradient(to bottom left, rgba(239, 245, 245, 0.904) 50%, rgba(209, 109, 126, 0.377) 50%); */
+    background-image: url("../imagenes/otramas.webp"); 
+    background-position: left bottom; 
+    background-repeat: no-repeat;
+    background-size: 480px;
+   
+}
+
+#blink{
+    background-color: rgb(8, 8, 8);
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+
+.titulo{
+    background-color: rgba(241, 148, 179, 0.808);
+    padding: 10px;
+    font-size: 35px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+nav ul a{
+    text-decoration:none;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    
+    
+}
+.portada{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;  
+    margin-top: 1px;
+    background-color: rgba(241, 148, 179, 0.808);
+    color: rgb(20, 20, 19);
+    font-size: 17px;
+    font-family:fantasy; 
+    text-align: center;
+}
+li{
+    display: inline;
+    padding-left: 14px;
+}
+
+li a{
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: rgba(245, 110, 155, 0.509);
+    color:rgb(5, 5, 5);
+}
+
+
+.sub-imagenes{
+width: 100%;
+margin-top: 80px;
+border: 1px solid rgb(253, 253, 253);
+}
+.caja:hover{
+    filter: blur(5px);
+}
+.caja{
+    width: 300px;
+    border: 4px solid white;
+    }
+
+footer{
+    margin-top: 50px;
+}
+.colum{
+    float:left;
+    width: 30%;
+    padding: 15px;
+  }
+.colum p{
+    display: block;
+}
+.colum a{
+    display: block;
+}
+.colum img{    
+    width: 100%;
+    border: 10px double  rgba(220, 13, 82, 0.309);
+    }
+
+
+div a{
+    text-decoration:none;
+    color:black;
+}
+
+div a:hover{
+    background-color: rgba(241, 148, 179, 0.808);color:rgb(5, 5, 5);
+}
+
+.derechos{
+    margin-top: 400px;
+    text-align: right;
+    color:rgba(0, 0, 0, 0.514)
+}
+
+.splide__slide{
+    padding-left: 0;
+}

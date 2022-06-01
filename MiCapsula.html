@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mi Capsula</title>
+   <link rel="stylesheet" href="./CSS/Estilos.css">
+   
+   <link rel="stylesheet" href="./js/splide/dist/css/splide.min.css">
+   
+   <script>
+    window.setInterval (BlinkIt, 500);
+      var color = "pink";
+    
+      function BlinkIt () {
+        var blink = document.getElementById ("blink");
+        color = (color == "#ffffff")? "pink" : "#ffffff";
+        blink.style.color = color;
+        blink.style.fontSize='15px';
+      }
+    </script>
+</head>
+<body>
+
+    <div id="blink"> >>>>>  Con tu compra mayor a $2500 el <b>ENVIO ES GRATIS </b> <<<<< </div>
+
+    <div class="titulo">MI CAPSULA </div>
+    
+    <nav>
+    <ul>
+        <li><a href="productos.html"> Productos  </a></li>
+        <li><a href="comprar.html">  Como Comprar</a></li>
+        <li><a href="sobre_nosotros.html"> Sobre Nosotros</a></li>
+        <li><a href="contacto.html" target="_blank"> Contacto</a></li>
+    
+    </ul>
+
+    </nav>
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"><img src="./imagenes/modeloo.webp" class="portada"></li>
+                  <li class="splide__slide"><img src="./imagenes/mooodelo.jpg" class="portada"></li>
+                  <li class="splide__slide"><img src="./imagenes/modelo.png" class="portada"></li>
+              </ul>
+        </div>
+      </section>
+
+
+    <div class="sub-imagenes">
+        <a href="https://www.google.com.ar/"><img src="./imagenes/corazon.jpeg" class="caja"></a> 
+        <a href="https://www.google.com.ar/"><img src="./imagenes/aroos.jpg" class="caja"></a> 
+        <a href="https://www.google.com.ar/"><img src="./imagenes/pulcera.jpeg" class="caja"></a> 
+        <a href="https://www.google.com.ar/"><img src="./imagenes/aros.jpeg" class="caja"></a> 
+    </div>
+
+    <br><br><br>
+    <footer>
+        <div class="colum">
+           <p><b> INFORMACION:</b></p>
+           <a href="MiCapsula.html"> Inicio</a>
+           <a href="productos.html">Productos</a>
+           <a href="comprar.html"> Como comprar</a>
+           <a href="sobre_nosotros.html"> Sobre Nosotros</a>
+           <a href="informacion.html" target="_blank"> Contacto</a>
+        </div>
+
+        <div class="colum">
+            <p><b> NUESTRAS REDES: </b></p>
+            <a href=""> WhatsApp</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.google.com.ar/"> Instagram</a>
+        </div>
+
+        <div class="colum">
+            <p><b> MEDIOS DE PAGOS: </b></p>
+            <img src="./imagenes/pago.png">
+        </div>
+    </footer>
+
+        <div class="derechos"> 
+            <p>                                           __________________________</p>
+            <p><b><i> Todos los derechos reservados ®</i></b></p>
+            
+        </div>
+
+    <script src="./js/splide/dist/js/splide.min.js"></script>
+
+    <script>
+    new Splide( '.splide', {
+        type:"loop",
+        autoplay:true
+    } ).mount();
+    </script>
+
+</body>
+</html>
